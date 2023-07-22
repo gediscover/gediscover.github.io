@@ -5,7 +5,7 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-# GitHub Pages
+# GitHub Pages 2025
 
 _Create a site or blog from your GitHub repositories with GitHub Pages._
 
