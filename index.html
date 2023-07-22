@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8" ></script>
+    <title>主接线图</title>
+    <style>
+        .busbar {
+          fill: none;
+          stroke: black;
+          stroke-width: 3;
+        }
+        .outLine {
+          fill: none;
+          stroke: black;
+          stroke-width: 2;
+        }
+        .circuitBreaker {
+          fill: none;
+          stroke: red;
+          stroke-width: 2;
+        }
+        .disconnectSwitch {
+          fill: none;
+          stroke: blue;
+          stroke-width: 2;
+        }
+        .handcart {
+          fill: none;
+          stroke: green;
+          stroke-width: 2;
+        }
+      </style>
+</head>
+<body>
+    <svg id="chart" width="1000" height="600"></svg>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
