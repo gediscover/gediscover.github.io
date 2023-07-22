@@ -16,7 +16,7 @@ svg.append("line")
   // 显示文字
 svg.append("text")
 .attr("x", 150)
-.attr("y", 120)
+.attr("y", 100)
 .attr("text-anchor", "middle")
 .attr("alignment-baseline", "middle")
 .text("10kV I段母线")
